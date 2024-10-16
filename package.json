@@ -9,5 +9,10 @@
   "devDependencies": {
     "@parcel/transformer-sass": "2.12.0",
     "parcel": "latest"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "@barba/css": "^2.1.16",
+    "gsap": "^3.12.5"
   }
 }

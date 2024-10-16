@@ -25,6 +25,19 @@
     js-tokens "^4.0.0"
     picocolors "^1.0.0"
 
+"@barba/core@^2.10.3":
+  version "2.10.3"
+  resolved "https://registry.yarnpkg.com/@barba/core/-/core-2.10.3.tgz#277378919964b629ff2ed02bf57c869cb31b89c5"
+  integrity sha512-ovVeT1wUcdMg8Lu6Iel6yEBW2+s6iA7qfRLCVKTSIfJU9csiawU0UOmVJdcoy3WNOsF2Ur9UfoTUC9aDcm4c0w==
+  dependencies:
+    is-promise "^4.0.0"
+    path-to-regexp "^6.2.2"
+
+"@barba/css@^2.1.16":
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/@barba/css/-/css-2.1.16.tgz#649f4d66d2285c21de4d0b161df747b9c5f903d6"
+  integrity sha512-R+umahxX+jiQeM5YGEx7x+iE4tLAZGmonWsQ2MHxe2MIuCUm6VF6XEAuIdAUUkrOw5IYtq1SKfbIB58yuAT8Rw==
+
 "@lezer/common@^1.0.0":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.2.2.tgz#33cb2de75d72602d3ca905cdf7e32049fbe7402c"
@@ -1144,6 +1157,11 @@ globals@^13.2.0:
   dependencies:
     type-fest "^0.20.2"
 
+gsap@^3.12.5:
+  version "3.12.5"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.12.5.tgz#136c02dad4c673b441bdb1ca00104bfcb4eae7f4"
+  integrity sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==
+
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
@@ -1212,6 +1230,11 @@ is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+
+is-promise@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-4.0.0.tgz#42ff9f84206c1991d26debf520dd5c01042dd2f3"
+  integrity sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -1442,6 +1465,11 @@ parse-json@^5.2.0:
     error-ex "^1.3.1"
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
+
+path-to-regexp@^6.2.2:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.3.0.tgz#2b6a26a337737a8e1416f9272ed0766b1c0389f4"
+  integrity sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==
 
 picocolors@^1.0.0, picocolors@^1.1.0:
   version "1.1.0"
