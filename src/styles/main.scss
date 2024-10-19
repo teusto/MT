@@ -153,9 +153,38 @@
       }
     }
     .info {
-      border: 2px solid white;
+      //border: 2px solid white;
       grid-column: 6 / 11;
       margin: 6em 0;
+      h1{
+        color: #fff8e8;
+        font-family: "Garet Heavy";
+      }
+      p{
+        font-family: "Garet Heavy";
+        color: #fff8e8;
+      }
+      .divider{
+        width: 5%;
+        height: 1px;
+        background-color: #992015;
+        margin: 1em 0;
+      }
+      .list-container{
+        width: 96%;
+        .topic-item{
+            padding: 0 .6em;
+            margin: .8em 0;
+            h2{
+                color: #fff8e8;
+                font-family: "Garet Book";  
+            }
+            .topic-text{
+                text-align: justify;
+                padding: 0 1em;
+            }
+        }
+      }
     }
   }
 }
@@ -205,11 +234,43 @@
       }
     }
     .info {
-      border: 2px solid white;
+      //border: 2px solid white;
       grid-column: 2 / 7;
       grid-row: 1;
       align-self: center;
       height: 60%;
+      h1{
+        color: #fff8e8;
+        font-family: "Garet Heavy";
+      }
+      .divider{
+        width: 5%;
+        height: 1px;
+        background-color: #992015;
+        margin: 1em 0;
+      }
+      .list-container{
+        width: 96%;
+        .topic-item{
+            padding: 0 .6em;
+            margin: .8em 0;
+            h2{
+                color: #fff8e8;
+                font-family: "Garet Book";  
+            }
+            .topic-text{
+                text-align: justify;
+                padding: 0 1em;
+                a{
+                    text-decoration: none;
+                    color: #fff8e8;
+                    font-family: "Garet Book"; 
+                }:hover{
+                    color: #992015;
+                }
+            }
+        }
+      }
     }
   }
 }
@@ -260,66 +321,140 @@
       }
     }
     .info {
-      border: 2px solid red;
+      //border: 2px solid red;
       grid-column: 2 / 6;
       grid-row: 1;
       align-self: center;
       height: 80%;
+      text-align: end;
+      h1{
+        color: #fff8e8;
+        font-family: "Garet Heavy";
+      }
+      p{
+        font-family: "Garet Heavy";
+        color: #fff8e8;
+        font-size: .65em;
+      }
+      .divider{
+        width: 5%;
+        height: 1px;
+        background-color: #992015;
+        margin: 1em 0;
+      }
+      .list-container{
+        width: 96%;
+        .topic-item{
+            padding: 0 .6em;
+            margin: .8em 0;
+            h2{
+                color: #fff8e8;
+                font-family: "Garet Book";  
+            }
+            .topic-text{
+                text-align: start;
+                padding: 0 1em;
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+      }
     }
   }
 }
 
 // PORTFOLIO --------------------------------------------------------------------------
 .bgWrapper-port {
-    background-color: #1e1e1e;
-    grid-column: 1 / 13;
+  background-color: #1e1e1e;
+  grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  .logo {
+    width: 35%;
+    //border: 2px solid red;
+    justify-self: center;
+    svg {
+      width: 100%;
+    }
+  }
+  .frame {
+    //border: 2px solid red;
+    grid-column: 2 / 13;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    .logo {
-      width: 35%;
-      //border: 2px solid red;
-      justify-self: center;
-      svg {
+    grid-template-columns: repeat(11, 1fr);
+
+    .box {
+      //border: 1px solid blue;
+      grid-column: 2 / 7;
+      grid-row: 1;
+      align-self: start;
+      height: 290px;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      font-family: "Garet Book";
+      cursor: pointer;
+      p {
+        flex: 1;
+        color: #fff8e8;
+        font-size: 0.7em;
+        font-weight: bold;
+        //text-align: end;
+      }
+      .inside-box {
         width: 100%;
+        height: 100%;
+        background-color: rgb(253, 253, 248);
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
       }
     }
-    .frame {
+    .info {
       //border: 2px solid red;
-      grid-column: 2 / 13;
-      display: grid;
-      grid-template-columns: repeat(11, 1fr);
-  
-      .box {
-        //border: 1px solid blue;
-        grid-column: 2 / 7;
-        grid-row: 1;
-        align-self: start;
-        height: 290px;
-        border-radius: 4px;
-        display: flex;
-        flex-direction: column;
-        font-family: "Garet Book";
-        cursor: pointer;
-        p {
-          flex: 1;
-          color: #fff8e8;
-          font-size: 0.7em;
-          font-weight: bold;
-          //text-align: end;
-        }
-        .inside-box {
-          width: 100%;
-          height: 100%;
-          background-color: rgb(253, 253, 248);
-          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-            rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-        }
+      grid-column: 8 / 11;
+      align-self: center;
+      height: 80%;
+      h1{
+        color: #fff8e8;
+        font-family: "Garet Heavy";
       }
-      .info {
-        border: 2px solid red;
-        grid-column: 8 / 11;
-        align-self: center;
-        height: 80%;
+      .divider{
+        width: 5%;
+        height: 1px;
+        background-color: #992015;
+        margin: 1em 0;
+      }
+      .list-container{
+        width: 96%;
+        .topic-item{
+            padding: 0 .6em;
+            margin: .8em 0;
+            h2{
+                color: #fff8e8;
+                font-family: "Garet Book";  
+            }
+            .topic-text{
+                padding: 0 1em;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                span{
+                    font-family: "Garet Book"; 
+                    color: #fff8e8;
+                    background-color: #fff8e830;
+                    padding: .2em 1.2em;
+                    text-align: center;
+                    flex-basis: auto;
+                    border-radius: 4px;
+                    margin-bottom: .4em;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                }
+            }
+        }
       }
     }
   }
+}
+
+// INTRO --------------------------------------------------------------------------
